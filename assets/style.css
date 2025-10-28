@@ -1,0 +1,93 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #0b1d3a;
+  color: #f8fafc;
+  margin: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+}
+
+header p {
+  margin-top: 0;
+  color: #cbd5f5;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.stat-card {
+  background: rgba(15, 49, 92, 0.7);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(2, 12, 27, 0.4);
+}
+
+.stat-card .stat-title {
+  margin: 0;
+  color: #93c5fd;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.stat-card strong {
+  display: block;
+  font-size: 2rem;
+  margin-top: 0.75rem;
+  color: #facc15;
+}
+
+.controls {
+  background: rgba(15, 49, 92, 0.7);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(2, 12, 27, 0.4);
+}
+
+.controls label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.controls p {
+  margin-top: 1rem;
+  color: #cbd5f5;
+}
+
+.charts {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.table-section h2 {
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+  color: #94a3b8;
+  text-align: center;
+}
+
+.dash-table-container .dash-table {
+  background-color: rgba(15, 49, 92, 0.7);
+  border-radius: 12px;
+  overflow: hidden;
+}
